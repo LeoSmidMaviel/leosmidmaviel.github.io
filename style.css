@@ -871,3 +871,46 @@ img {
     }
 
 }
+
+/* ================= CV ================= */
+
+.cv {
+    text-align: center;
+}
+
+.cv-description {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.cv-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #151525;
+    border: 1px solid rgba(0, 174, 255, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 174, 255, 0.08);
+}
+
+.cv-container iframe {
+    display: block;
+    width: 100%;
+    height: 800px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+}
+
+.cv-buttons {
+    margin-top: 25px;
+}
+
+/* Affichage mobile */
+@media screen and (max-width: 768px) {
+    .cv-container iframe {
+        height: 550px;
+    }
+}
