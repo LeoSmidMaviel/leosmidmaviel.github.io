@@ -31,9 +31,8 @@
         <nav class="navbar">
             <a href="#accueil" class="active">Accueil</a>
             <a href="#apropos">À propos</a>
-         <a href="documents/CV.pdf" target="_blank">CV</a>   
-
-<a href="#competences">Compétences</a>
+            <a href="#cv">CV</a>
+            <a href="#competences">Compétences</a>
             <a href="#projets">Projets</a>
             <a href="#parcours">Parcours</a>
             <a href="#contact">Contact</a>
@@ -50,20 +49,17 @@
 
             <p class="subtitle">BIENVENUE SUR MON PORTFOLIO</p>
 
-            <!-- MODIFIER : prénom et nom -->
             <h1>
                 Bonjour, je suis <br>
                 <span class="blue">[PRÉNOM NOM]</span>
             </h1>
 
-            <!-- MODIFIER : formation -->
             <h2>
                 Étudiant en <span class="blue">BTS SIO</span>
             </h2>
 
             <div class="separator"></div>
 
-            <!-- MODIFIER : présentation -->
             <p class="hero-description">
                 Passionné par l'informatique, le développement
                 et les nouvelles technologies, je vous invite
@@ -76,7 +72,6 @@
                     Découvrir mes projets
                 </a>
 
-                <!-- MODIFIER : chemin vers ton CV -->
                 <a href="documents/CV.pdf" class="btn secondary" download>
                     <i class="fa-solid fa-download"></i>
                     Télécharger mon CV
@@ -86,7 +81,6 @@
 
         </div>
 
-        <!-- MODIFIER : image principale -->
         <div class="hero-image">
             <img src="images/banniere.png"
                  alt="Illustration de présentation">
@@ -108,7 +102,6 @@
 
             <div class="about-text">
 
-                <!-- MODIFIER : présentation personnelle -->
                 <p>
                     Bonjour ! Je suis [PRÉNOM NOM], actuellement
                     étudiant en BTS SIO.
@@ -150,6 +143,44 @@
                 </div>
 
             </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CV ================= -->
+
+    <section class="cv section" id="cv">
+
+        <div class="section-title">
+            <i class="fa-solid fa-file-pdf"></i>
+            <h2>Mon CV</h2>
+        </div>
+
+        <p class="cv-description">
+            Retrouvez ci-dessous mon curriculum vitae.
+        </p>
+
+        <div class="cv-container">
+
+            <iframe
+                src="documents/CV.pdf"
+                title="Mon CV"
+                width="100%"
+                height="800px">
+            </iframe>
+
+        </div>
+
+        <div class="cv-buttons">
+
+            <a href="documents/CV.pdf"
+               class="btn primary"
+               download>
+                <i class="fa-solid fa-download"></i>
+                Télécharger mon CV
+            </a>
 
         </div>
 
@@ -396,19 +427,16 @@
 
         <div class="contact-links">
 
-            <!-- MODIFIER : adresse mail -->
             <a href="mailto:adresse@email.com" class="contact-btn">
                 <i class="fa-solid fa-envelope"></i>
                 Mon adresse mail
             </a>
 
-            <!-- MODIFIER : LinkedIn -->
             <a href="#" class="contact-btn" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-linkedin"></i>
                 LinkedIn
             </a>
 
-            <!-- MODIFIER : GitHub -->
             <a href="#" class="contact-btn" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i>
                 GitHub
